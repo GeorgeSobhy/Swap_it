@@ -29,6 +29,7 @@ namespace SwapIt.Data.Entities
         public required int RoleId { get; set; }
         [ForeignKey("City")]
         public int? CityId { get; set; }
+        [ForeignKey("Country")]
         public int? CountryId { get; set; }
         [MaxLength(100)]
         public required string  Name { get; set; }
@@ -47,7 +48,8 @@ namespace SwapIt.Data.Entities
 
         public virtual required Role Role { get; set; }
 
-       // public virtual City? City { get; set; }
+        public virtual City? City { get; set; }
+        public virtual Country? Country { get; set; }
         public DateTime CreationDate { get; set; }
          
     }
