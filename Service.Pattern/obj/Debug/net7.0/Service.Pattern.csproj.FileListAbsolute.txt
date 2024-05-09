@@ -1,0 +1,16 @@
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\bin\Debug\net7.0\Service.Pattern.deps.json
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\bin\Debug\net7.0\Service.Pattern.dll
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\bin\Debug\net7.0\Service.Pattern.pdb
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\bin\Debug\net7.0\Repository.Pattern.dll
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\bin\Debug\net7.0\Repository.Pattern.pdb
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\Service.Pattern.csproj.AssemblyReference.cache
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\Service.Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\Service.Pattern.AssemblyInfoInputs.cache
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\Service.Pattern.AssemblyInfo.cs
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\Service.Pattern.csproj.CoreCompileInputs.cache
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\Service.Pattern.sourcelink.json
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\Service..2C5CFC6C.Up2Date
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\Service.Pattern.dll
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\refint\Service.Pattern.dll
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\Service.Pattern.pdb
+C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\Service.Pattern\obj\Debug\net7.0\ref\Service.Pattern.dll

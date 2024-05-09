@@ -9,14 +9,14 @@ using Microsoft.Extensions.Options;
 using Service.Pattern;
 namespace SwapIt.BusinessLogic.Services
 {
-    public class APIService : IAPIService
+    public class InternalService : IInternalService
     {
-        private const String CLASS_NAME = "APIService";
+        private const String CLASS_NAME = "InternalService";
 
         private readonly IService<User, UserModel> _userService;
         private readonly ILogService _logService;
 
-        public APIService(ILogService logService, IService<User, UserModel> userService)
+        public InternalService(ILogService logService, IService<User, UserModel> userService)
         {
             _logService = logService;
             _userService = userService;
@@ -24,7 +24,7 @@ namespace SwapIt.BusinessLogic.Services
 
     }
 
-    public interface IAPIService
+    public interface IInternalService
     {
 
 

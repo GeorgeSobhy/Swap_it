@@ -1,10 +1,8 @@
 using SwapIt.BusinessLogic;
 using SwapIt.BusinessLogic.Authentication;
 using SwapIt.Data;
-using SwapIt.Api;
-using SwapIt.Api.HealthCheck;
-using SwapIt.Mapper;
-using SwapIt.Mapper.HostedServices;
+using SwapIt.Api; 
+using SwapIt.Mapper; 
 using AutoMapper;
 using AutoMapper.Internal;
 using Microsoft.AspNetCore.Mvc.Versioning;
@@ -50,14 +48,10 @@ builder.Services.AddApiVersioning(opt =>
 
 
 
-builder.Services.AddHealthChecks()
-    .AddCheck("ICMP Health Check",
-        new ICMPHealthCheck(200, new HttpContextAccessor()));
+ 
 
 builder.Services.AddControllers();
-
-// Configure services
-//builder.Services.AddSingleton<IConfigManager, ConfigManager>();
+ 
 
 builder.Services.AddConfig(builder.Configuration);
 
@@ -119,12 +113,7 @@ foreach (var type in types)
         Console.WriteLine("\t{0} {1} {2}", method.ReturnType == null ? "void" : method.ReturnType.FullName.Replace("System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[SwapIt.Mapper.Models.", "List[").Replace(", System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]", "]").Replace("System.Threading.Tasks.Task`1[[SwapIt.Mapper.Models.", "").Replace(", 97Display.Mapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]", ""), method.Name, string.Join(" ", method.GetParameters().Select(x => x.Name).ToArray()));
     }
 }
-
-builder.Services.AddHostedService<QueuedHostedService>();
-builder.Services.AddSingleton<IBackgroundTaskQueue>(ctx =>
-{
-    return new BackgroundTaskQueue(10000);
-});
+ 
 
 builder.Services.AddMvc(config =>
 {

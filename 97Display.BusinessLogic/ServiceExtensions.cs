@@ -7,8 +7,7 @@ using ProcedureRepository.Pattern.EF;
 using Repository.Pattern.EF;
 using Repository.Pattern.DataContext;
 using Repository.Pattern.Repositories;
-using Repository.Pattern.UnitOfWork;
-using SwapIt.Mapper.Helpers;
+using Repository.Pattern.UnitOfWork; 
 
 namespace SwapIt.BusinessLogic
 {
@@ -35,19 +34,12 @@ namespace SwapIt.BusinessLogic
             return services;
         }
 
-        // This used only for APIs so this refrenced from InternalAPI, ExternalAPI
-        //public static IServiceCollection AddTokenServices(
-        //   this IServiceCollection services)
-        //{
-        //    services.AddScoped<ITokenService, TokenService>();
-        //    return services;
-        //}
-
+   
         public static IServiceCollection AddProviders(
           this IServiceCollection s)
         {
 
-            s.AddScoped<IHttpHelper, HttpHelper>();
+            
 
             return s;
         }
