@@ -31,7 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\97Display.Data\SwapIt.Data.csproj" />
+    <ProjectReference Include="..\SwapIt.Data\SwapIt.Data.csproj" />
   </ItemGroup>
 
 </Project>

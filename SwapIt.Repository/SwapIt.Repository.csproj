@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\97Display.Data\SwapIt.Data.csproj" />
     <ProjectReference Include="..\Repository.Pattern\Repository.Pattern.csproj" />
+    <ProjectReference Include="..\SwapIt.Data\SwapIt.Data.csproj" />
   </ItemGroup>
 
 </Project>
