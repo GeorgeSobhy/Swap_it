@@ -5,6 +5,22 @@ GO
 USE SwapIt;
 GO 
  
+ 
+CREATE TABLE [dbo].[ErrorLog](
+	[Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[MethodName] [varchar](100) NULL,
+	[ClassName] [varchar](100) NULL,
+	[ErrorMsg] [varchar](max) NULL,
+	[ErrorCode] [varchar](max) NULL,
+	[StackTrace] [varchar](max) NULL,
+	[DateAdded] [datetime] NOT NULL, 
+ CONSTRAINT [PK_ErrorLog] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] 
+GO
+
 
 CREATE TABLE [dbo].[City](
 	[Id] [int] IDENTITY(1,1) NOT NULL, 
