@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {}
+    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
+    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj",
+        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj",
         "projectName": "Repository.Pattern.EF",
-        "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj",
-        "packagesPath": "C:\\Users\\amirb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern.EF\\obj\\",
+        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj",
+        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amirb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
-                "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
+              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
               }
             }
           }
@@ -86,21 +86,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj",
+        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj",
         "projectName": "Repository.Pattern",
-        "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj",
-        "packagesPath": "C:\\Users\\amirb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern\\obj\\",
+        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj",
+        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amirb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

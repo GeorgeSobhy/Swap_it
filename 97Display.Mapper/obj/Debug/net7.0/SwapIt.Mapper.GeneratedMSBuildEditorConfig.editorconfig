@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SwapIt.Mapper
-build_property.ProjectDir = C:\Users\amirb\source\repos\GeorgeSobhy\Swap_it\97Display.Mapper\
+build_property.ProjectDir = C:\Users\Thomas\Source\Repos\Swap_it\97Display.Mapper\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

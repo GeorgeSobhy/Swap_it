@@ -11768,19 +11768,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amirb\\.nuget\\packages\\": {}
+    "C:\\Users\\Thomas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj",
       "projectName": "SwapIt.Api",
-      "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj",
-      "packagesPath": "C:\\Users\\amirb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.InternalApi\\obj\\",
+      "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj",
+      "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.InternalApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amirb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11794,29 +11794,29 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj"
+            "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj"
             },
-            "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
+            "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
             },
-            "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj"
+            "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj"
             },
-            "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj"
+            "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj"
             },
-            "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj"
+            "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj"
             },
-            "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
+            "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
             },
-            "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\RquestContext\\RquestContext.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\RquestContext\\RquestContext.csproj"
+            "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj"
             },
-            "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Service.Pattern\\Service.Pattern.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\Service.Pattern\\Service.Pattern.csproj"
+            "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\Service.Pattern.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\Service.Pattern.csproj"
             }
           }
         }
@@ -11868,7 +11868,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

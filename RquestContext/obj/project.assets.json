@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\amirb\\.nuget\\packages\\": {}
+    "C:\\Users\\Thomas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\RquestContext\\RquestContext.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj",
       "projectName": "RquestContext",
-      "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\RquestContext\\RquestContext.csproj",
-      "packagesPath": "C:\\Users\\amirb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\RquestContext\\obj\\",
+      "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj",
+      "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amirb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

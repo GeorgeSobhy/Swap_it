@@ -11184,19 +11184,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amirb\\.nuget\\packages\\": {}
+    "C:\\Users\\Thomas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj",
       "projectName": "SwapIt.Mapper",
-      "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj",
-      "packagesPath": "C:\\Users\\amirb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Mapper\\obj\\",
+      "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj",
+      "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amirb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11210,8 +11210,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\GeorgeSobhy\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
+            "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
             }
           }
         }
@@ -11280,7 +11280,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   },
