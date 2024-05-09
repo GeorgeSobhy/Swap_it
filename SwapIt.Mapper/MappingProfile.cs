@@ -1,6 +1,6 @@
 ﻿
-using SwapIt.Data.Entities; 
-using SwapIt.Mapper.Models; 
+using SwapIt.Data.Entities;
+using SwapIt.Mapper.Models;
 using AutoMapper;
 using System.Diagnostics.Metrics;
 
@@ -26,24 +26,24 @@ namespace SwapIt.Mapper
 
             CreateMap<ServiceModel, Service>();
             CreateMap<Service, ServiceModel>();
-//            CreateMap<CityModel,City>();
-//            CreateMap<City, CityModel>();
-//CreateMap<CountryModel,Country>();
-//            CreateMap<Country, CountryModel>();
-//CreateMap<CustomerBalanceModel,CustomerBalance>();
-//            CreateMap<CustomerBalance, CustomerBalanceModel>();
-//CreateMap<NotificationModel,Notification>();
-//            CreateMap<Notification, NotificationModel>();
-//CreateMap<PaymentStatus Model,PaymentStatus >();
-//            CreateMap < PaymentStatus , PaymentStatus Model> ();
-//CreateMap<ServiceBookmarkModel,ServiceBookmark>();
-//            CreateMap<ServiceBookmark, ServiceBookmarkModel>();
-//CreateMap<ServiceImageModel,ServiceImage>();
-//            CreateMap<ServiceImage, ServiceImageModel>();
-//CreateMap<ServiceRequestModel,ServiceRequest>();
-//            CreateMap<ServiceRequest, ServiceRequestModel>();
-//CreateMap<ServiceStatusModel,ServiceStatus>();
-//            CreateMap<ServiceStatus, ServiceStatusModel>();
+            CreateMap<CityModel, City>();
+            CreateMap<City, CityModel>();
+            CreateMap<CountryModel, Country>();
+            CreateMap<Country, CountryModel>();
+            CreateMap<CustomerBalanceModel, CustomerBalance>();
+            CreateMap<CustomerBalance, CustomerBalanceModel>();
+            CreateMap<NotificationModel, Notification>();
+            CreateMap<Notification, NotificationModel>();
+            CreateMap<PaymentStatusModel, PaymentStatus>();
+            CreateMap<PaymentStatus, PaymentStatusModel>();
+            CreateMap<ServiceBookmarkModel, ServiceBookmark>();
+            CreateMap<ServiceBookmark, ServiceBookmarkModel>();
+            CreateMap<ServiceImageModel, ServiceImage>();
+            CreateMap<ServiceImage, ServiceImageModel>();
+            CreateMap<ServiceRequestModel, ServiceRequest>();
+            CreateMap<ServiceRequest, ServiceRequestModel>();
+            CreateMap<ServiceStatusModel, ServiceStatus>();
+            CreateMap<ServiceStatus, ServiceStatusModel>();
 
         }
     }

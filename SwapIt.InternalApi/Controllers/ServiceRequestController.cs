@@ -13,22 +13,22 @@ namespace SwapIt.Api.Controllers
     [Authorize(claim: new[] { "Provider", "Admin" })]
     [ApiController]
     [Route("[controller]")]
-    public class ServiceTypeController : ControllerBase
+    public class ServiceRequestController : ControllerBase
     {
 
-        private const string CLASS_NAME = "ServiceType";
+        private const string CLASS_NAME = "ServiceRequest";
 
-        private readonly ILogger<ServiceTypeController> _logger;
+        private readonly ILogger<ServiceRequestController> _logger;
         private readonly ILogService _logService;
-        private readonly IService<SwapIt.Data.Entities.ServiceType, ServiceTypeModel> _serviceTypeService;
-        public ServiceTypeController(ILogger<ServiceTypeController> logger, IService<SwapIt.Data.Entities.ServiceType, ServiceTypeModel> serviceTypeService, ILogService logService)
+        private readonly IService<SwapIt.Data.Entities.ServiceRequest, ServiceRequestModel> _ServiceRequestService;
+        public ServiceRequestController(ILogger<ServiceRequestController> logger, IService<SwapIt.Data.Entities.ServiceRequest, ServiceRequestModel> ServiceRequestService, ILogService logService)
         {
             _logger = logger;
-            _serviceTypeService = serviceTypeService;
+            _ServiceRequestService = ServiceRequestService;
             _logService = logService;
         }
         [HttpGet("GetAll")]
-        public async Task<List<ServiceTypeModel>?> GetAll()
+        public async Task<List<ServiceRequestModel>?> GetAll()
         {
 
             const string METHOD_NAME = "GetAll";
@@ -36,7 +36,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.Queryable();
+                return _ServiceRequestService.Queryable();
             }
             catch (Exception ex)
             {
@@ -50,7 +50,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpGet("GetById")]
-        public async Task<ServiceTypeModel?> GetById(int Id)
+        public async Task<ServiceRequestModel?> GetById(int Id)
         {
 
             const string METHOD_NAME = "GetById";
@@ -58,7 +58,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.Find<int>(Id);
+                return _ServiceRequestService.Find<int>(Id);
             }
             catch (Exception ex)
             {
@@ -73,7 +73,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpPost("Create")]
-        public async Task<ServiceTypeModel?> Create(ServiceTypeModel model)
+        public async Task<ServiceRequestModel?> Create(ServiceRequestModel model)
         {
 
             const string METHOD_NAME = "Create";
@@ -81,7 +81,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.InsertAndReturnModel(model);
+                return _ServiceRequestService.InsertAndReturnModel(model);
             }
             catch (Exception ex)
             {
@@ -104,7 +104,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _serviceTypeService.Delete<int>(Id);
+                _ServiceRequestService.Delete<int>(Id);
                 return Ok();
             }
             catch (Exception ex)
@@ -119,7 +119,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpPost("Update")]
-        public async Task<ActionResult> Update(ServiceTypeModel model)
+        public async Task<ActionResult> Update(ServiceRequestModel model)
         {
 
             const string METHOD_NAME = "Update";
@@ -127,7 +127,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _serviceTypeService.Update(model);
+                _ServiceRequestService.Update(model);
                 return Ok();
             }
             catch (Exception ex)

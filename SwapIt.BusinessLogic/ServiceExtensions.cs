@@ -29,8 +29,8 @@ namespace SwapIt.BusinessLogic
             services.AddScoped<ILogService, LogService>();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IInternalService, InternalService>();
-            
-
+            services.AddScoped<ICCustomerBalanceService, CCustomerBalanceService>();
+             
             return services;
         }
 

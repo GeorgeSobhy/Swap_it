@@ -13,22 +13,22 @@ namespace SwapIt.Api.Controllers
     [Authorize(claim: new[] { "Provider", "Admin" })]
     [ApiController]
     [Route("[controller]")]
-    public class ServiceTypeController : ControllerBase
+    public class ServiceBookmarkController : ControllerBase
     {
 
-        private const string CLASS_NAME = "ServiceType";
+        private const string CLASS_NAME = "ServiceBookmark";
 
-        private readonly ILogger<ServiceTypeController> _logger;
+        private readonly ILogger<ServiceBookmarkController> _logger;
         private readonly ILogService _logService;
-        private readonly IService<SwapIt.Data.Entities.ServiceType, ServiceTypeModel> _serviceTypeService;
-        public ServiceTypeController(ILogger<ServiceTypeController> logger, IService<SwapIt.Data.Entities.ServiceType, ServiceTypeModel> serviceTypeService, ILogService logService)
+        private readonly IService<SwapIt.Data.Entities.ServiceBookmark, ServiceBookmarkModel> _ServiceBookmarkService;
+        public ServiceBookmarkController(ILogger<ServiceBookmarkController> logger, IService<SwapIt.Data.Entities.ServiceBookmark, ServiceBookmarkModel> ServiceBookmarkService, ILogService logService)
         {
             _logger = logger;
-            _serviceTypeService = serviceTypeService;
+            _ServiceBookmarkService = ServiceBookmarkService;
             _logService = logService;
         }
         [HttpGet("GetAll")]
-        public async Task<List<ServiceTypeModel>?> GetAll()
+        public async Task<List<ServiceBookmarkModel>?> GetAll()
         {
 
             const string METHOD_NAME = "GetAll";
@@ -36,7 +36,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.Queryable();
+                return _ServiceBookmarkService.Queryable();
             }
             catch (Exception ex)
             {
@@ -50,7 +50,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpGet("GetById")]
-        public async Task<ServiceTypeModel?> GetById(int Id)
+        public async Task<ServiceBookmarkModel?> GetById(int id)
         {
 
             const string METHOD_NAME = "GetById";
@@ -58,7 +58,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.Find<int>(Id);
+                return _ServiceBookmarkService.Find<int>(id);
             }
             catch (Exception ex)
             {
@@ -73,7 +73,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpPost("Create")]
-        public async Task<ServiceTypeModel?> Create(ServiceTypeModel model)
+        public async Task<ServiceBookmarkModel?> Create(ServiceBookmarkModel model)
         {
 
             const string METHOD_NAME = "Create";
@@ -81,7 +81,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.InsertAndReturnModel(model);
+                return _ServiceBookmarkService.InsertAndReturnModel(model);
             }
             catch (Exception ex)
             {
@@ -96,7 +96,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpDelete("Delete")]
-        public async Task<ActionResult> Delete(int Id)
+        public async Task<ActionResult> Delete(int id)
         {
 
             const string METHOD_NAME = "Delete";
@@ -104,7 +104,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _serviceTypeService.Delete<int>(Id);
+                _ServiceBookmarkService.Delete<int>(id);
                 return Ok();
             }
             catch (Exception ex)
@@ -119,7 +119,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpPost("Update")]
-        public async Task<ActionResult> Update(ServiceTypeModel model)
+        public async Task<ActionResult> Update(ServiceBookmarkModel model)
         {
 
             const string METHOD_NAME = "Update";
@@ -127,7 +127,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _serviceTypeService.Update(model);
+                _ServiceBookmarkService.Update(model);
                 return Ok();
             }
             catch (Exception ex)
@@ -140,6 +140,11 @@ namespace SwapIt.Api.Controllers
             }
 
         }
+
+
+
+
+
 
 
     }

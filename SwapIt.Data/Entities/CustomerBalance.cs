@@ -1,4 +1,5 @@
-﻿using Repository.Pattern.EF;
+﻿using Castle.Core.Resource;
+using Repository.Pattern.EF;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -11,6 +12,8 @@ namespace SwapIt.Data.Entities
 {
     public partial class CustomerBalance : Entity
     {
+        
+
 
         public object EntityKey
         {
@@ -25,9 +28,9 @@ namespace SwapIt.Data.Entities
 
         [Range(0,int.MaxValue)]
         public required int Points { get; set; } = 0;
-        [ForeignKey("User")]
-        public required int UserId { get; set; }
-        public virtual User User { get; set; }
+        [ForeignKey("Customer")]
+        public required int CustomerId { get; set; }
+        public virtual User Customer { get; set; }
         public required DateTime CreationDate { get; set; }
 
     }

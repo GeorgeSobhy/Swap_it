@@ -13,22 +13,22 @@ namespace SwapIt.Api.Controllers
     [Authorize(claim: new[] { "Provider", "Admin" })]
     [ApiController]
     [Route("[controller]")]
-    public class ServiceTypeController : ControllerBase
+    public class CityController : ControllerBase
     {
 
-        private const string CLASS_NAME = "ServiceType";
+        private const string CLASS_NAME = "City";
 
-        private readonly ILogger<ServiceTypeController> _logger;
+        private readonly ILogger<CityController> _logger;
         private readonly ILogService _logService;
-        private readonly IService<SwapIt.Data.Entities.ServiceType, ServiceTypeModel> _serviceTypeService;
-        public ServiceTypeController(ILogger<ServiceTypeController> logger, IService<SwapIt.Data.Entities.ServiceType, ServiceTypeModel> serviceTypeService, ILogService logService)
+        private readonly IService<SwapIt.Data.Entities.City, CityModel> _CityService;
+        public CityController(ILogger<CityController> logger, IService<SwapIt.Data.Entities.City, CityModel> CityService, ILogService logService)
         {
             _logger = logger;
-            _serviceTypeService = serviceTypeService;
+            _CityService = CityService;
             _logService = logService;
         }
         [HttpGet("GetAll")]
-        public async Task<List<ServiceTypeModel>?> GetAll()
+        public async Task<List<CityModel>?> GetAll()
         {
 
             const string METHOD_NAME = "GetAll";
@@ -36,7 +36,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.Queryable();
+                return _CityService.Queryable();
             }
             catch (Exception ex)
             {
@@ -50,7 +50,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpGet("GetById")]
-        public async Task<ServiceTypeModel?> GetById(int Id)
+        public async Task<CityModel?> GetById(int Id)
         {
 
             const string METHOD_NAME = "GetById";
@@ -58,7 +58,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.Find<int>(Id);
+                return _CityService.Find<int>(Id);
             }
             catch (Exception ex)
             {
@@ -73,7 +73,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpPost("Create")]
-        public async Task<ServiceTypeModel?> Create(ServiceTypeModel model)
+        public async Task<CityModel?> Create(CityModel model)
         {
 
             const string METHOD_NAME = "Create";
@@ -81,7 +81,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.InsertAndReturnModel(model);
+                return _CityService.InsertAndReturnModel(model);
             }
             catch (Exception ex)
             {
@@ -104,7 +104,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _serviceTypeService.Delete<int>(Id);
+                _CityService.Delete<int>(Id);
                 return Ok();
             }
             catch (Exception ex)
@@ -119,7 +119,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpPost("Update")]
-        public async Task<ActionResult> Update(ServiceTypeModel model)
+        public async Task<ActionResult> Update(CityModel model)
         {
 
             const string METHOD_NAME = "Update";
@@ -127,7 +127,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _serviceTypeService.Update(model);
+                _CityService.Update(model);
                 return Ok();
             }
             catch (Exception ex)

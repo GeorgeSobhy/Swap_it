@@ -1,4 +1,5 @@
-﻿ 
+﻿
+using SwapIt.Data.Entities;
 using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -6,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 namespace SwapIt.Mapper.Models
 {
 
- 
+
     public class ServiceModel
     {
 
@@ -25,5 +26,9 @@ namespace SwapIt.Mapper.Models
         public bool Active { get; set; }
 
         public DateTime CreationDate { get; set; }
+
+
+        public ServiceTypeModel? ServiceType { get; set; }
+        public UserModel Provider { get; set; }
     }
 }

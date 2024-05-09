@@ -13,22 +13,22 @@ namespace SwapIt.Api.Controllers
     [Authorize(claim: new[] { "Provider", "Admin" })]
     [ApiController]
     [Route("[controller]")]
-    public class ServiceTypeController : ControllerBase
+    public class RoleController : ControllerBase
     {
 
-        private const string CLASS_NAME = "ServiceType";
+        private const string CLASS_NAME = "Role";
 
-        private readonly ILogger<ServiceTypeController> _logger;
+        private readonly ILogger<RoleController> _logger;
         private readonly ILogService _logService;
-        private readonly IService<SwapIt.Data.Entities.ServiceType, ServiceTypeModel> _serviceTypeService;
-        public ServiceTypeController(ILogger<ServiceTypeController> logger, IService<SwapIt.Data.Entities.ServiceType, ServiceTypeModel> serviceTypeService, ILogService logService)
+        private readonly IService<SwapIt.Data.Entities.Role, RoleModel> _RoleService;
+        public RoleController(ILogger<RoleController> logger, IService<SwapIt.Data.Entities.Role, RoleModel> RoleService, ILogService logService)
         {
             _logger = logger;
-            _serviceTypeService = serviceTypeService;
+            _RoleService = RoleService;
             _logService = logService;
         }
         [HttpGet("GetAll")]
-        public async Task<List<ServiceTypeModel>?> GetAll()
+        public async Task<List<RoleModel>?> GetAll()
         {
 
             const string METHOD_NAME = "GetAll";
@@ -36,7 +36,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.Queryable();
+                return _RoleService.Queryable();
             }
             catch (Exception ex)
             {
@@ -50,7 +50,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpGet("GetById")]
-        public async Task<ServiceTypeModel?> GetById(int Id)
+        public async Task<RoleModel?> GetById(int Id)
         {
 
             const string METHOD_NAME = "GetById";
@@ -58,7 +58,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.Find<int>(Id);
+                return _RoleService.Find<int>(Id);
             }
             catch (Exception ex)
             {
@@ -73,7 +73,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpPost("Create")]
-        public async Task<ServiceTypeModel?> Create(ServiceTypeModel model)
+        public async Task<RoleModel?> Create(RoleModel model)
         {
 
             const string METHOD_NAME = "Create";
@@ -81,7 +81,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _serviceTypeService.InsertAndReturnModel(model);
+                return _RoleService.InsertAndReturnModel(model);
             }
             catch (Exception ex)
             {
@@ -104,7 +104,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _serviceTypeService.Delete<int>(Id);
+                _RoleService.Delete<int>(Id);
                 return Ok();
             }
             catch (Exception ex)
@@ -119,7 +119,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpPost("Update")]
-        public async Task<ActionResult> Update(ServiceTypeModel model)
+        public async Task<ActionResult> Update(RoleModel model)
         {
 
             const string METHOD_NAME = "Update";
@@ -127,7 +127,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _serviceTypeService.Update(model);
+                _RoleService.Update(model);
                 return Ok();
             }
             catch (Exception ex)
