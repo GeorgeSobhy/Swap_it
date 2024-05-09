@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\97Display.BusinessLogic\\Authentication\\Attributes",
+    "\\97Display.BusinessLogic\\Authentication\\Attributes\\WebAPI",
+    "\\97Display.BusinessLogic\\Authentication\\Attributes\\WebApp",
+    "\\97Display.BusinessLogic\\Authentication\\Models",
+    "\\97Display.BusinessLogic\\Services",
+    "\\97Display.Data\\Map",
+    "\\97Display.Data\\StoredProcedures",
+    "\\97Display.Data\\StoredProcedures\\Models",
+    "\\97Display.Data\\Views"
+  ],
+  "PreviewInSolutionExplorer": false
+}

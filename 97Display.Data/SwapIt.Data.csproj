@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>SwapIt.Data</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="StoredProcedures\**" />
+    <EmbeddedResource Remove="StoredProcedures\**" />
+    <None Remove="StoredProcedures\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\ActivityLogViewModel.cs" />
+    <Compile Remove="Entities\AppActivityLogViewModel.cs" />
+    <Compile Remove="Entities\AppointmentAttendees.cs" />
+    <Compile Remove="Entities\ClientProfile.cs" />
+    <Compile Remove="Entities\ClientProfileCounts.cs" />
+    <Compile Remove="Entities\EmailTrackingData.cs" />
+    <Compile Remove="Entities\EventAttendees.cs" />
+    <Compile Remove="Entities\InstantConnectReport.cs" />
+    <Compile Remove="Entities\LandingPageReport.cs" />
+    <Compile Remove="Entities\NotificationViewModel.cs" />
+    <Compile Remove="Entities\OrganizationByStatus.cs" />
+    <Compile Remove="Entities\OrganizationIntegration.cs" />
+    <Compile Remove="Entities\OrganizationLeadToolModel.cs" />
+    <Compile Remove="Entities\OrganizationLocationsBrief.cs" />
+    <Compile Remove="Entities\OrganizationPartner.cs" />
+    <Compile Remove="Entities\OrganizationProgram.cs" />
+    <Compile Remove="Entities\OrganizationsBrief.cs" />
+    <Compile Remove="Entities\OrganizationStartStop.cs" />
+    <Compile Remove="Entities\OrganizationTrackingModel.cs" />
+    <Compile Remove="Entities\OrganizationVideo.cs" />
+    <Compile Remove="Entities\PageSpeedAverageModel.cs" />
+    <Compile Remove="Entities\PageSpeedDomainModel.cs" />
+    <Compile Remove="Entities\PersonData.cs" />
+    <Compile Remove="Entities\PersonSearchModel.cs" />
+    <Compile Remove="Entities\ProspectScheduledEmailViewModel.cs" />
+    <Compile Remove="Entities\ProspectView.cs" />
+    <Compile Remove="Entities\RetentionProfile.cs" />
+    <Compile Remove="Entities\RouteViewModel.cs" />
+    <Compile Remove="Entities\ScheduledAppointment.cs" />
+    <Compile Remove="Entities\ScheduledEvent.cs" />
+    <Compile Remove="Entities\SchoolData.cs" />
+    <Compile Remove="Entities\SearchOrganization.cs" />
+    <Compile Remove="Entities\ServerStatusReportModel.cs" />
+    <Compile Remove="Entities\Student.cs" />
+    <Compile Remove="Entities\TermsOfServiceViewModel.cs" />
+    <Compile Remove="Entities\TextConnectDetailViewModel.cs" />
+    <Compile Remove="Entities\TextConnectViewModel.cs" />
+    <Compile Remove="Entities\TrackingLogData.cs" />
+    <Compile Remove="Entities\UniqueClientProfileCounts.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="StoredProcedures\Models\IntResult.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Repository.Pattern.EF\Repository.Pattern.EF.csproj" />
+    <ProjectReference Include="..\Repository.Pattern\Repository.Pattern.csproj" />
+    <ProjectReference Include="..\RquestContext\RquestContext.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+</Project>

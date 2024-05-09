@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>SwapIt.BusinessLogic</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ExternalServices\**" />
+    <EmbeddedResource Remove="ExternalServices\**" />
+    <None Remove="ExternalServices\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\EmailService.cs" />
+    <Compile Remove="Services\LocationService.cs" />
+    <Compile Remove="Services\ReceivedMessageReplyService.cs" />
+    <Compile Remove="Services\ReceivedMessageService.cs" />
+    <Compile Remove="Services\RouletteCallService.cs" />
+    <Compile Remove="Services\SchoolCallService.cs" />
+    <Compile Remove="Services\SchoolPhoneNumberService.cs" />
+    <Compile Remove="Services\SMSTemplateService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\97Display.Data\SwapIt.Data.csproj" />
+    <ProjectReference Include="..\97Display.Mapper\SwapIt.Mapper.csproj" />
+    <ProjectReference Include="..\97Display.Repository\SwapIt.Repository.csproj" />
+    <ProjectReference Include="..\Repository.Pattern.EF\Repository.Pattern.EF.csproj" />
+    <ProjectReference Include="..\Repository.Pattern\Repository.Pattern.csproj" />
+    <ProjectReference Include="..\Service.Pattern\Service.Pattern.csproj" />
+  </ItemGroup>
+
+</Project>

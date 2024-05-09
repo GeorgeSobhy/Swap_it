@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SwapIt.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\AquaController.cs" />
+  </ItemGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Ical.Net" Version="4.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+
+
+	<ItemGroup>
+    <ProjectReference Include="..\97Display.BusinessLogic\SwapIt.BusinessLogic.csproj" />
+    <ProjectReference Include="..\97Display.Data\SwapIt.Data.csproj" />
+    <ProjectReference Include="..\97Display.Mapper\SwapIt.Mapper.csproj" />
+    <ProjectReference Include="..\97Display.Repository\SwapIt.Repository.csproj" />
+    <ProjectReference Include="..\Repository.Pattern.EF\Repository.Pattern.EF.csproj" />
+    <ProjectReference Include="..\Repository.Pattern\Repository.Pattern.csproj" />
+    <ProjectReference Include="..\RquestContext\RquestContext.csproj" />
+    <ProjectReference Include="..\Service.Pattern\Service.Pattern.csproj" />
+  </ItemGroup>
+
+</Project>
