@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj": {}
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj": {
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj",
+        "projectUniqueName": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj",
         "projectName": "SwapIt.BusinessLogic",
-        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.BusinessLogic\\obj\\",
+        "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\george\\.nuget\\packages\\",
+        "outputPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,23 +32,23 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\Service.Pattern.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\Service.Pattern.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Service.Pattern\\Service.Pattern.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Service.Pattern\\Service.Pattern.csproj"
               }
             }
           }
@@ -53,11 +57,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,26 +73,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj",
+        "projectUniqueName": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj",
         "projectName": "SwapIt.Data",
-        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\obj\\",
+        "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj",
+        "packagesPath": "C:\\Users\\george\\.nuget\\packages\\",
+        "outputPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,14 +105,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\RquestContext\\RquestContext.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\RquestContext\\RquestContext.csproj"
               }
             }
           }
@@ -123,22 +121,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -150,26 +137,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj": {
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj",
+        "projectUniqueName": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj",
         "projectName": "SwapIt.Api",
-        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.InternalApi\\obj\\",
+        "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.InternalApi\\SwapIt.Api.csproj",
+        "packagesPath": "C:\\Users\\george\\.nuget\\packages\\",
+        "outputPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.InternalApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -183,29 +169,29 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.BusinessLogic\\SwapIt.BusinessLogic.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\RquestContext\\RquestContext.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\RquestContext\\RquestContext.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\Service.Pattern.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\Service.Pattern.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Service.Pattern\\Service.Pattern.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Service.Pattern\\Service.Pattern.csproj"
               }
             }
           }
@@ -214,30 +200,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Ical.Net": {
-              "target": "Package",
-              "version": "[4.2.0, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Versioning": {
-              "target": "Package",
-              "version": "[5.1.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -249,29 +216,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj": {
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj",
+        "projectUniqueName": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj",
         "projectName": "SwapIt.Mapper",
-        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Mapper\\obj\\",
+        "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Mapper\\SwapIt.Mapper.csproj",
+        "packagesPath": "C:\\Users\\george\\.nuget\\packages\\",
+        "outputPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Mapper\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -285,8 +248,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
               }
             }
           }
@@ -295,50 +258,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.Azure.Functions.Worker": {
-              "target": "Package",
-              "version": "[1.20.0, )"
-            },
-            "Microsoft.Azure.WebJobs.Extensions.OpenApi": {
-              "target": "Package",
-              "version": "[1.5.1, )"
-            },
-            "Microsoft.Extensions.Options.ConfigurationExtensions": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Identity.Client": {
-              "target": "Package",
-              "version": "[4.57.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "SendGrid": {
-              "target": "Package",
-              "version": "[9.28.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -350,26 +274,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj": {
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj",
+        "projectUniqueName": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj",
         "projectName": "SwapIt.Repository",
-        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Repository\\obj\\",
+        "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Repository\\SwapIt.Repository.csproj",
+        "packagesPath": "C:\\Users\\george\\.nuget\\packages\\",
+        "outputPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -383,11 +306,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\97Display.Data\\SwapIt.Data.csproj"
               },
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
               }
             }
           }
@@ -396,11 +319,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -417,26 +335,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj",
+        "projectUniqueName": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj",
         "projectName": "Repository.Pattern.EF",
-        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern.EF\\obj\\",
+        "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\Repository.Pattern.EF.csproj",
+        "packagesPath": "C:\\Users\\george\\.nuget\\packages\\",
+        "outputPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern.EF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -450,8 +367,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
               }
             }
           }
@@ -460,38 +377,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "CommonServiceLocator": {
-              "target": "Package",
-              "version": "[2.0.7, )"
-            },
-            "LinqKit.Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.1.4, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.Proxies": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -503,26 +393,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj",
+        "projectUniqueName": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj",
         "projectName": "Repository.Pattern",
-        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\obj\\",
+        "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj",
+        "packagesPath": "C:\\Users\\george\\.nuget\\packages\\",
+        "outputPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -542,11 +431,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -563,26 +447,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj": {
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\RquestContext\\RquestContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj",
+        "projectUniqueName": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\RquestContext\\RquestContext.csproj",
         "projectName": "RquestContext",
-        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\RquestContext.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\RquestContext\\obj\\",
+        "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\RquestContext\\RquestContext.csproj",
+        "packagesPath": "C:\\Users\\george\\.nuget\\packages\\",
+        "outputPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\RquestContext\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -602,11 +485,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -623,29 +501,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\Service.Pattern.csproj": {
+    "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Service.Pattern\\Service.Pattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\Service.Pattern.csproj",
+        "projectUniqueName": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Service.Pattern\\Service.Pattern.csproj",
         "projectName": "Service.Pattern",
-        "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\Service.Pattern.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Service.Pattern\\obj\\",
+        "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Service.Pattern\\Service.Pattern.csproj",
+        "packagesPath": "C:\\Users\\george\\.nuget\\packages\\",
+        "outputPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Service.Pattern\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -659,8 +533,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
-                "projectPath": "C:\\Users\\Thomas\\Source\\Repos\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
+              "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj": {
+                "projectPath": "D:\\career\\programming\\.net\\codes\\swap_it\\Swap_it\\Repository.Pattern\\Repository.Pattern.csproj"
               }
             }
           }
@@ -669,22 +543,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -696,12 +559,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
