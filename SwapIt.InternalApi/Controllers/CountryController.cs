@@ -50,7 +50,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpGet("GetById")]
-        public async Task<CountryModel?> GetById(int Id)
+        public async Task<CountryModel?> GetById(int id)
         {
 
             const string METHOD_NAME = "GetById";
@@ -58,7 +58,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _CountryService.Find<int>(Id);
+                return _CountryService.Find<int>(id);
             }
             catch (Exception ex)
             {
@@ -96,7 +96,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpDelete("Delete")]
-        public async Task<ActionResult> Delete(int Id)
+        public async Task<ActionResult> Delete(int id)
         {
 
             const string METHOD_NAME = "Delete";
@@ -104,7 +104,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _CountryService.Delete<int>(Id);
+                _CountryService.Delete<int>(id);
                 return Ok();
             }
             catch (Exception ex)

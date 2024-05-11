@@ -1,4 +1,3 @@
-
 using SwapIt.BusinessLogic.Authentication.Attributes.WebAPI;
 using SwapIt.BusinessLogic.Services;
 using SwapIt.Mapper.Models;
@@ -7,6 +6,7 @@ using Service.Pattern;
 using SwapIt.Repository.Repositories;
 using SwapIt.Data.Entities;
 using System.Web.Http;
+using SwapIt.BusinessLogic.Authentication.Attributes;
 
 namespace SwapIt.Api.Controllers
 {
@@ -18,8 +18,8 @@ namespace SwapIt.Api.Controllers
 
         private const string CLASS_NAME = "City";
 
-        private readonly ILogger<CityController> _logger;
-        private readonly ILogService _logService;
+        private readonly ILogger<CityController> _logger; //azure logger
+        private readonly ILogService _logService; //database logger
         private readonly IService<SwapIt.Data.Entities.City, CityModel> _CityService;
         public CityController(ILogger<CityController> logger, IService<SwapIt.Data.Entities.City, CityModel> CityService, ILogService logService)
         {
@@ -27,6 +27,7 @@ namespace SwapIt.Api.Controllers
             _CityService = CityService;
             _logService = logService;
         }
+        [AllowAnonymous]
         [HttpGet("GetAll")]
         public async Task<List<CityModel>?> GetAll()
         {
@@ -50,7 +51,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpGet("GetById")]
-        public async Task<CityModel?> GetById(int Id)
+        public async Task<CityModel?> GetById(int id)
         {
 
             const string METHOD_NAME = "GetById";
@@ -58,7 +59,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                return _CityService.Find<int>(Id);
+                return _CityService.Find<int>(id);
             }
             catch (Exception ex)
             {
@@ -96,7 +97,7 @@ namespace SwapIt.Api.Controllers
 
 
         [HttpDelete("Delete")]
-        public async Task<ActionResult> Delete(int Id)
+        public async Task<ActionResult> Delete(int id)
         {
 
             const string METHOD_NAME = "Delete";
@@ -104,7 +105,7 @@ namespace SwapIt.Api.Controllers
             try
             {
 
-                _CityService.Delete<int>(Id);
+                _CityService.Delete<int>(id);
                 return Ok();
             }
             catch (Exception ex)
